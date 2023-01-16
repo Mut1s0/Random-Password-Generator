@@ -39,7 +39,6 @@ button {
 .passwords {
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid green;
   margin-top: 100px;
 }
 
@@ -47,7 +46,25 @@ button {
   background: #273248;
   padding: 20px;
   width: 50vh;
+  height: 25px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media screen and ( max-width: 1200px ) {
+  body {
+    text-align: center;
+  }
+
+  .passwords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .passwords > p {
+    width: 40vh;
+  }
 }

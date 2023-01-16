@@ -16,7 +16,7 @@ generateBtn.addEventListener("click", function() {
 
   let fifteenChars = randomCharacters.slice(0, 15)
 
-  output1.textContent = fifteenChars
+  output1.textContent = fifteenChars.join(" ")
   
 })
 
@@ -33,6 +33,6 @@ generateBtn.addEventListener("click", function() {
 
   let fifteenChars = randomCharacters.slice(0, 15)
 
-  output2.textContent = fifteenChars
+  output2.textContent = fifteenChars.join(" ")
   
 })
