@@ -23,7 +23,7 @@ p {
 button {
   background: #334E3B;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-top: 45px;
   color: white;
   font-weight: bold;
@@ -49,4 +49,5 @@ button {
   width: 50vh;
   text-align: center;
   border-radius: 10px;
+  cursor: pointer;
 }
